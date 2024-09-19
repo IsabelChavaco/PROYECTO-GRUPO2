@@ -28,8 +28,8 @@ def registrar_cliente():
 def crear_paquete():
     nombre = input("Ingrese nombre del paquete: ")
     descripcion = input("Ingrese descripcion del paquete: ")
-    fecha_salida = input("Ingrese fecha de salida del paquete (dd-mm-aaaa): ")
-    fecha_llegada = input("Ingrese fecha de llegada del paquete (dd-mm-aaaa): ")
+    fecha_salida = input("Ingrese fecha de salida del paquete (aaaa-mm-dd): ")
+    fecha_llegada = input("Ingrese fecha de llegada del paquete (aaaa-mm-dd): ")
     
     while True:
         try:
